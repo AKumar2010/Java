@@ -34,7 +34,7 @@ public class Reverse2Char {
     public static void main(String args[]) {
         StringBuilder sb = new StringBuilder();
         getlist();
-        System.out.println("size is: " + lst.size());
+        System.out.println("size is : " + lst.size());
         for (int i = 0; i < lst.size(); i++) {
             sb.append(getReverseString(lst.get(i)));
             System.out.println(sb);
