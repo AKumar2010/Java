@@ -17,9 +17,12 @@ dependencies {
     implementation("io.rest-assured:rest-assured:5.5.0")
     // Source: https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
     implementation("org.seleniumhq.selenium:selenium-java:4.41.0")
+    // Source: https://mvnrepository.com/artifact/org.testng/testng
+    testImplementation("org.testng:testng:7.10.2")
 
 }
 
 tasks.test {
-    useJUnitPlatform()
+    //useJUnitPlatform()
+    useTestNG()
 }
