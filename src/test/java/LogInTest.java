@@ -16,6 +16,4 @@ public class LogInTest extends BaseTest{
         Assert.assertTrue(page.isSearchButton(),"Search glass not there");
     }
 
-
-
 }

@@ -1,5 +1,8 @@
 package org.example;
 
+import java.util.Arrays;
+import java.util.List;
+
 public class LongestGap {
 
     static int chkGap(Integer n) {
@@ -26,6 +29,17 @@ public class LongestGap {
 
 
         public static void main (String[]args){
+
+            int [] nums = {0,3,7,2,5,8,4,6,0,1};
+
+            Arrays.sort(nums);
+            for(int i:nums){
+                System.out.println(i);
+            }
+            int count=0;
+            for(int i=0;i<nums.length;i++){
+               // if(nums[i+1]!=nums[i] && nums[i+1]-nums[i]){}
+            }
 
             System.out.println("Longest gap is: " + chkGap(32));
         }
